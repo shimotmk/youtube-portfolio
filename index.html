@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <title>Tomoki Shimomura</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <h1>Tomoki Shimomura</h1>
+        <div class="header_menu">
+          <nav>
+            <ul>
+              <li>
+                <a href="#about">about</a>
+              </li>
+              <li>
+                <a href="#service">service</a>
+              </li>
+              <li>
+                <a href="#works">works</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="about">
+        <h2 class="title">About</h2>
+        <div class="about__area">
+          <div class="about__area-img">
+            <img src="img/profile.jpg" alt="しもむらともきの写真"> 
+          </div>
+          <div class="about__area-discription text">
+            <p>プログラミング・ブログを愛しています。普通の学生→リゾバなどで100万円以上貯金→Web系フリーランスエンジニア(月収約80万)の経験を活かし高校生から大人まで100人以上にプログラミングを教え電子書籍でAmazon Web開発ランキング1位http://amzn.to/38uSpS0｜YouTube http://bit.ly/32073OZ</p>
+            <div class="about__area-discription-icon">
+              <a href="https://twitter.com/shimo_tmk">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UChbGtmE4qQP_HrPqMCxgoxw">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="blog">
+                <i class="fas fa-rss"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        <h2 class="title">Service</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <h3 class="title">Coding</h3>
+            <div class="service__item-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <p class="text">HTML CSS Javascript WordPress PHPのプログラミング、コーディングが可能です。保守運用のしやすいコーディングを心がけています</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <h3 class="title">Desing</h3>
+            <div class="service__item-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <p class="text">YouTubeやブログのサムネイルや企業ロゴの制作が可能です</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <h3 class="title">Movie</h3>
+            <div class="service__item-icon">
+              <i class="fas fa-video"></i>
+            </div>
+            <p class="text">YouTubeの構成、運営、編集をしている経験があります</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="works">
+        <h2 class="title">Works</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/mblog.png" alt="">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/tyotto.png" alt="">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/portofolio.png" alt="">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/bootstrap.jpg" alt="">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/WordPress.png" alt="">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="works__img" src="img/works/Adobexd.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="title">Contact</h2>
+
+        <div class="form">
+          <!-- class, action, methodを変更しないでください -->
+          <form class="formrun text" action="https://form.run/api/v1/r/4hde74bpvvlysl02619m7stw" method="post">
+            <!-- ↓自由に要素を追加・編集することができます -->
+            <div class="form__area">
+              <div class="form__content">
+                <label>お名前</label>
+                <input name="お名前" type="text">
+              </div>
+  
+              <div class="form__content">
+                <label>メールアドレス [必須]</label>
+                <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+              </div>
+  
+              <div class="form__content">
+                <label>お問い合わせ [必須]</label>
+                <textarea name="お問い合わせ" rows="10" data-formrun-required></textarea>
+                <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+              </div>
+  
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+  
+              <div class="button">
+                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+              </div>
+            </div>
+          </form>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>
+        &copy 2020 shimomura tomoki
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
